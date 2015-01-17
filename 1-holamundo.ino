@@ -5,20 +5,17 @@
 *
 */
 
-// Declaración de variables
-int ledPin = 13;
-int ledDelay = 1000; 
 
 // Iniciando la configuración en Arduino
 void setup() {
-	pinMode(ledPin, OUTPUT);
+	pinMode(13, OUTPUT);
 	
 }
 
 // Ejecución del primer programa
 void loop() {
-	digitalWrite(ledPin, HIGH);
-	delay(ledDelay);
-	digitalWrite(ledPin,LOW);
-	delay(ledDelay);
+	digitalWrite(13, HIGH);
+	delay(1000);
+	digitalWrite(13,LOW);
+	delay(1000);
 }
