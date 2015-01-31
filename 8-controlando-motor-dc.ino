@@ -15,26 +15,23 @@ void setup() {
   pinMode(enPriMotor2, OUTPUT);  
 }  
    
-void loop()  
-{  
+void loop() {  
   analogWrite(pinVelocidad, velocidad);   
 
-  //Aciona o motor  
   digitalWrite(enPriMotor1, LOW);  
   digitalWrite(enPriMotor2, HIGH);  
-  delay(3000);  
+  delay(2000);  
 
   parar();  
 
-  //Aciona o motor no sentido inverso  
   digitalWrite(enPriMotor1, HIGH);  
   digitalWrite(enPriMotor2, LOW);  
-  delay(3000);  
+  delay(2000);  
   para_motor();  
 }  
     
 void parar() {  
   digitalWrite(enPriMotor1, LOW);  
   digitalWrite(enPriMotor2, LOW);  
-  delay(3000);  
+  delay(2000);  
 }  
