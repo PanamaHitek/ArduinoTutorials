@@ -5,9 +5,12 @@
 *
 */
 
-int ledIzquierdo = 9;      // Pin para el led indicador 
-int ledDerecho = 8; 
-int sensorValor = 0;        // Inicializamos el valor del sensor
+// Asignación de pines para los leds indicadores
+int ledIzquierdo = 9;
+int ledDerecho = 8;
+
+// Inicializamos el valor del sensor
+int sensorValor = 0;
 
 
 #define sensor A0

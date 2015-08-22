@@ -9,7 +9,6 @@
 // Iniciando la configuración en Arduino
 void setup() {
 	pinMode(13, OUTPUT);
-	
 }
 
 // Ejecución del primer programa
